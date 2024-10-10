@@ -2,7 +2,7 @@ import { Controller, Get, Post, Body, Param, Delete, UseGuards } from '@nestjs/c
 import { PostsService } from './posts.service';
 import { CreatePostDto } from './dto/create-post.dto';
 import { ApiTags, ApiOperation, ApiResponse, ApiBearerAuth } from '@nestjs/swagger';
-import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
+import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 
 @ApiBearerAuth()
 @UseGuards(JwtAuthGuard)  
