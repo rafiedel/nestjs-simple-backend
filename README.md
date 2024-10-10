@@ -1,3 +1,11 @@
+## Pattern Project
+
+```html
+
+Pola proyek yang saya gunakan terinspirasi dari pengalaman saya saat belajar dan bekerja freelance. Lead Developer menyukai struktur ini karena pembagiannya jelas dan mudah diorganisir. Pola ini menggunakan Prisma sebagai ORM, dengan modul fitur kecil ditempatkan di dalam modul fitur utama (biasanya ditampilkan di navigation bar), semuanya disusun rapi di dalam folder src. Saya pribadi lebih memilih pola ini karena ini adalah pola pertama yang saya gunakan saat pertama kali belajar framework NestJS.
+
+```
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
